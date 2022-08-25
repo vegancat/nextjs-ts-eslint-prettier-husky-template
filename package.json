@@ -15,19 +15,19 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "@types/node": "18.7.13",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "2.7.1",
-    "typescript": "4.7.4"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
   }
 }
