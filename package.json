@@ -2,13 +2,17 @@
   "name": "nextjs-ts-eslint-prettier-husky-template",
   "version": "0.1.0",
   "private": true,
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prettier:format": "npx prettier --write .",
-    "prettier:check": "npx prettier --check ."
+    "prettier:check": "npx prettier --check .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -21,6 +25,8 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "typescript": "4.7.4"
   }
