@@ -2,9 +2,6 @@
   "name": "nextjs-ts-eslint-prettier-husky-template",
   "version": "0.2.0",
   "private": true,
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
