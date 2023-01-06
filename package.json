@@ -1,6 +1,6 @@
 {
   "name": "nextjs-ts-eslint-prettier-husky-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -15,6 +15,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@next/font": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"

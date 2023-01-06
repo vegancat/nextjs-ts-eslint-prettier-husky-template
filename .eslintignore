@@ -1,4 +1,4 @@
-# Ignore artifacts:
+node_modules
 build
 coverage
 .yarn
@@ -15,3 +15,4 @@ next.config.js
 .env.test.local
 .env.production
 .env.production.local
+
