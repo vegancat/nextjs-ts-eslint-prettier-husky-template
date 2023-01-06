@@ -12,7 +12,7 @@
     "lint": "next lint",
     "prettier:format": "npx prettier --write .",
     "prettier:check": "npx prettier --check .",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@next/font": "latest",
@@ -29,6 +29,7 @@
     "eslint-config-prettier": "latest",
     "husky": "latest",
     "lint-staged": "latest",
+    "pinst": "latest",
     "prettier": "latest",
     "typescript": "latest"
   }
