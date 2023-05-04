@@ -18,22 +18,23 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "@next/font": "latest",
-    "next": "latest",
+    "next": "^13.4.0",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "eslint-config-prettier": "latest",
-    "husky": "latest",
-    "lint-staged": "latest",
-    "pinst": "latest",
-    "prettier": "latest",
-    "typescript": "latest"
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.4.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "pinst": "^3.0.0",
+    "prettier": "^2.8.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
   }
 }
